@@ -14,11 +14,11 @@ public interface StudioRepository extends JpaRepository<Studios , Long> {
 
     List<Studios> findByVisibility(boolean visibility);
 
-    List<Studios> findByCommunity(int community);
+    List<Studios> findByIsCommunity(int community);
 
     List<Studios> findByRegistration(boolean registration);
 
-    List<Studios> findByUsersSet_Id(long id);
+    List<Studios> findByUsersSet_Id(long user_id);
 
     List<Studios> findByUsersSet_FirstName(String firstName);
 

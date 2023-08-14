@@ -109,3 +109,4 @@ public class PropertiesConfig {
     this.hibernateDialect = hibernateDialect;
   }
 }
+
