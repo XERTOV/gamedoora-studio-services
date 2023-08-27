@@ -1,0 +1,2 @@
+-- insert into Users(id,first_name,email,provider_token) values (1L,'avik','somehthing@gamil.com','1A');
+-- INSERT INTO studio_user_requests (user_id, studio_id) VALUES (40, 1);

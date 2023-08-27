@@ -10,6 +10,7 @@ import java.util.List;
 @Repository
 public interface StudioRepository extends JpaRepository<Studios , Long> {
 
+
     List<Studios> findByName(String name);
 
     List<Studios> findByVisibility(boolean visibility);
